@@ -10,7 +10,7 @@ body {
 }
 
 main {
-    width: 800px;
+    width: 1000px;
     height: auto;
     margin: auto;
     background-color: black;
@@ -45,21 +45,29 @@ Head section design
 ===============================================================*/
 
 .section_A {
-    height: 300px;
+    height: 400px;
     text-align: center;
+    background-image: url("images/heading.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    opacity: 2;
+    backface-visibility: visible;
+
 }
 
 .section_A h1 {
-    padding-top: 3em;
+    padding-top: 5em;
     color: rgb(10, 142, 175);
     transition: all;
     transition-duration: 2s;
 }
 
 .section_A h1:hover {
-    color: rgb(4, 64, 192);
+    color: rgb(198, 213, 245);
     text-shadow: 1px 1px black;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; */
 }
 
 .section_A h1 {
@@ -67,7 +75,7 @@ Head section design
 }
 
 .section_A p {
-    color: rgb(142, 142, 168);
+    color: rgb(202, 202, 211);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
@@ -79,8 +87,53 @@ Booking Section Design
 
 .section_B {
     text-align: center;
+    height: 500px;
+    background-image: url("images/book1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    opacity: 2;
+    backface-visibility: visible;
+
 }
 
-#button {
-    margin-left: 3em
+.section_B h1 {
+    color: black;
+    font-size: 40px;
+    padding-top: .5em;
+    padding-bottom: 0.2em;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+.section_B h1{
+    margin:auto;
+    border-bottom: 3px solid rgb(31, 31, 32);
+
+}
+.section_B p {
+    font-size: 20px;
+    text-align: center;
+    text-transform: capitalize;
+    line-height: normal;
+    font-weight: 200;
+}
+
+
+button {
+    padding-top:0.3em;
+    background-color: blue;
+    padding: 0.2em;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#sign_up {
+    position: absolute;
+    margin-left: -10em;
+}
+#login {
+    position:absolute;
+    margin-left: 10em;
 }
